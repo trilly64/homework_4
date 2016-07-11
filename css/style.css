@@ -1,0 +1,123 @@
+	body {
+		height: 1060px;
+		background-image: url(../img/1px.png);
+		background-repeat: repeat-x;
+		font-family: sans-serif;
+	}
+	.main {
+		position: relative;
+	
+		width: 1000px;
+		height: 988px;
+		margin: auto;
+		margin-top: 38px;
+		background-color: #ffffff;
+		box-shadow: 0 0 20px rgb(10, 10, 10);
+		border-bottom: 3px solid black;
+	}
+	.logo {
+		display: inline-block;
+		height: 175px;
+	}
+	.logo img {
+		padding-left: 25px;
+		padding-top: 10px;
+	}
+	.contacts {
+		position: absolute;
+		left: 840px;
+		float: right;
+		color: #5fa5bb;
+		display: inline-block;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.contries {
+		float: right;
+		position: absolute;
+		left: 640px;
+		top: 110px;
+	}
+	#contries li {
+		display: inline-block;
+	}
+	#contries a {
+		display: block;
+		color: #5fa5bb;
+		padding-right: 8px;
+		text-align: center;
+		font-size: 10px;
+	}
+	.photo {
+		position: absolute;
+		top: 175px;
+		left: 0px;
+		border-top: 1px solid #138aa7;
+		border-bottom: 1px solid #138aa7;
+	}
+	.center_panel {
+		position: absolute;
+		top:413px;
+		background-color: #343434;
+		height: 27px;
+		width: 100%;
+		border-top: 1px solid #cacbcb;
+		border-bottom: 1px solid black;
+		box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	}
+	.text {
+		padding-top: 5px;
+	}
+	#text li {
+		display: inline-block;
+	}
+	#text a {
+		display: block;
+		color: #ffffff;
+		font-size: 15px;
+		text-decoration: none;
+		padding-left: 35px;
+		padding-right: 25px;
+	}
+	
+	/*#dropdown {
+		visibility: hidden;
+	}
+	a:hover #dropdown {
+		visibility: visible;
+	}*/ 
+
+	h3 {
+		margin: 0 auto;
+	}
+	.left_panel {
+		float: left;
+		left: 0px;
+	}
+	.right_panel {
+		float: right;
+		left: 790px;
+	}
+	.left_panel, .right_panel {
+		position: absolute;
+		top: 442px;
+		width: 210px;
+		height: 546px;
+		background-color: #edeef0;
+		font-size: 14px;
+		text-align: center;
+		color: #424c43;
+		line-height: 24px;
+		border-right: 1px solid #c7cacf;
+		border-left: 1px solid #c7cacf;
+	}
+	footer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	footer p {
+		text-align: center;
+		color: #ffffff;
+	}
+	
+	
